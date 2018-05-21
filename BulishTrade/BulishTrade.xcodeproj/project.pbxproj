@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		0B2F897020B0C5940020882E /* AppIcon.appiconset in Resources */ = {isa = PBXBuildFile; fileRef = 0B2F896F20B0C5940020882E /* AppIcon.appiconset */; };
 		0B2F897520B156070020882E /* app_splash_icon_ios.png in Resources */ = {isa = PBXBuildFile; fileRef = 0B2F897420B156070020882E /* app_splash_icon_ios.png */; };
-		0B2F897720B157070020882E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0B2F897620B157070020882E /* LaunchScreen.storyboard */; };
 		0B2F897A20B17F4F0020882E /* MostActiveController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B2F897920B17F4F0020882E /* MostActiveController.swift */; };
 		0B2F897C20B17F620020882E /* TopMarketsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B2F897B20B17F620020882E /* TopMarketsController.swift */; };
 		0B2F897F20B17F7D0020882E /* GainersController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B2F897E20B17F7D0020882E /* GainersController.swift */; };
@@ -20,6 +19,7 @@
 		0B2F899720B1C7050020882E /* most_active-25.png in Resources */ = {isa = PBXBuildFile; fileRef = 0B2F899220B1C7050020882E /* most_active-25.png */; };
 		0B2F899820B1C7050020882E /* briefcase-25.png in Resources */ = {isa = PBXBuildFile; fileRef = 0B2F899320B1C7050020882E /* briefcase-25.png */; };
 		0B2F899920B1C7050020882E /* losers-25.png in Resources */ = {isa = PBXBuildFile; fileRef = 0B2F899420B1C7050020882E /* losers-25.png */; };
+		0B2F899B20B1DCB20020882E /* SplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B2F899A20B1DCB20020882E /* SplashViewController.swift */; };
 		0B83733F20B00A09006D9891 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B83733E20B00A09006D9891 /* AppDelegate.swift */; };
 		0B83734120B00A09006D9891 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B83734020B00A09006D9891 /* ViewController.swift */; };
 		0B83734420B00A09006D9891 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0B83734220B00A09006D9891 /* Main.storyboard */; };
@@ -29,7 +29,6 @@
 /* Begin PBXFileReference section */
 		0B2F896F20B0C5940020882E /* AppIcon.appiconset */ = {isa = PBXFileReference; lastKnownFileType = folder; path = AppIcon.appiconset; sourceTree = "<group>"; };
 		0B2F897420B156070020882E /* app_splash_icon_ios.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = app_splash_icon_ios.png; sourceTree = "<group>"; };
-		0B2F897620B157070020882E /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0B2F897920B17F4F0020882E /* MostActiveController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MostActiveController.swift; sourceTree = "<group>"; };
 		0B2F897B20B17F620020882E /* TopMarketsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopMarketsController.swift; sourceTree = "<group>"; };
 		0B2F897E20B17F7D0020882E /* GainersController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GainersController.swift; sourceTree = "<group>"; };
@@ -40,6 +39,7 @@
 		0B2F899220B1C7050020882E /* most_active-25.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "most_active-25.png"; sourceTree = "<group>"; };
 		0B2F899320B1C7050020882E /* briefcase-25.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "briefcase-25.png"; sourceTree = "<group>"; };
 		0B2F899420B1C7050020882E /* losers-25.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "losers-25.png"; sourceTree = "<group>"; };
+		0B2F899A20B1DCB20020882E /* SplashViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashViewController.swift; sourceTree = "<group>"; };
 		0B83733B20B00A09006D9891 /* BulishTrade.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BulishTrade.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0B83733E20B00A09006D9891 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0B83734020B00A09006D9891 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -119,7 +119,7 @@
 				0B2F896F20B0C5940020882E /* AppIcon.appiconset */,
 				0B83734520B00A0B006D9891 /* Assets.xcassets */,
 				0B83734A20B00A0B006D9891 /* Info.plist */,
-				0B2F897620B157070020882E /* LaunchScreen.storyboard */,
+				0B2F899A20B1DCB20020882E /* SplashViewController.swift */,
 			);
 			path = BulishTrade;
 			sourceTree = "<group>";
@@ -189,7 +189,6 @@
 				0B2F899820B1C7050020882E /* briefcase-25.png in Resources */,
 				0B83734620B00A0B006D9891 /* Assets.xcassets in Resources */,
 				0B2F897520B156070020882E /* app_splash_icon_ios.png in Resources */,
-				0B2F897720B157070020882E /* LaunchScreen.storyboard in Resources */,
 				0B83734420B00A09006D9891 /* Main.storyboard in Resources */,
 				0B2F899720B1C7050020882E /* most_active-25.png in Resources */,
 			);
@@ -209,6 +208,7 @@
 				0B2F898420B17FAE0020882E /* PortfolioController.swift in Sources */,
 				0B83733F20B00A09006D9891 /* AppDelegate.swift in Sources */,
 				0B2F897C20B17F620020882E /* TopMarketsController.swift in Sources */,
+				0B2F899B20B1DCB20020882E /* SplashViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
