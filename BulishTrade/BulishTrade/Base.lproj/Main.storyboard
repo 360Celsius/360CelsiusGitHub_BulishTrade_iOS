@@ -6,6 +6,7 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -158,18 +159,37 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="app_splash_icon_ios.png" translatesAutoresizingMaskIntoConstraints="NO" id="UbV-LG-gsq">
-                                <rect key="frame" x="67" y="269" width="240" height="128"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="loading_image_1.png" translatesAutoresizingMaskIntoConstraints="NO" id="Cy1-sZ-DEk">
+                                <rect key="frame" x="162" y="611" width="50" height="36"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="36" id="5IB-5a-6Yq"/>
+                                </constraints>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="app_splash_icon_ios.png" translatesAutoresizingMaskIntoConstraints="NO" id="UbV-LG-gsq">
+                                <rect key="frame" x="108" y="262" width="160" height="144"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="UbV-LG-gsq" secondAttribute="height" multiplier="10:9" id="hHd-SD-Hdp"/>
+                                    <constraint firstAttribute="width" constant="160" id="sL5-r9-D5B"/>
+                                </constraints>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="Cy1-sZ-DEk" firstAttribute="centerX" secondItem="lcA-tw-S1w" secondAttribute="centerX" id="4qF-XS-5QD"/>
+                            <constraint firstItem="Cy1-sZ-DEk" firstAttribute="centerX" secondItem="lcA-tw-S1w" secondAttribute="centerX" id="CR3-au-YrJ"/>
+                            <constraint firstItem="UbV-LG-gsq" firstAttribute="centerX" secondItem="lcA-tw-S1w" secondAttribute="centerX" id="TQA-dH-Zmy"/>
+                            <constraint firstAttribute="bottom" secondItem="Cy1-sZ-DEk" secondAttribute="bottom" constant="20" symbolic="YES" id="fUO-TR-S5l"/>
+                            <constraint firstItem="UbV-LG-gsq" firstAttribute="centerY" secondItem="lcA-tw-S1w" secondAttribute="centerY" id="uU1-T2-xSE"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="VXb-iH-zA9"/>
                     </view>
+                    <connections>
+                        <outlet property="loaginImage" destination="Cy1-sZ-DEk" id="3MW-wb-QIH"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Qzo-B2-iSZ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1187" y="-1357"/>
+            <point key="canvasLocation" x="-1188" y="-1357.8710644677662"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="b8u-cx-Dql">
@@ -197,6 +217,7 @@
         <image name="app_splash_icon_ios.png" width="320" height="288"/>
         <image name="briefcase-25.png" width="25" height="25"/>
         <image name="gainers-25.png" width="25" height="25"/>
+        <image name="loading_image_1.png" width="50" height="50"/>
         <image name="losers-25.png" width="25" height="25"/>
         <image name="most_active-25.png" width="25" height="25"/>
         <image name="top_market-25.png" width="25" height="25"/>
