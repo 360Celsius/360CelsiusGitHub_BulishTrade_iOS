@@ -14,9 +14,13 @@ class SplashViewController: UIViewController{
     
     @IBOutlet weak var loaginImage: UIImageView!
     var loadingImages: [UIImage] = []
+    var requests: HttpRequests?
+    var animationRepeatCount: Int = 1000
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        requests = HttpRequests()
+        
         loadingImages = createLoadingImageArray(total: 3, imagePrefix: "loading_image")
     }
     
@@ -24,16 +28,16 @@ class SplashViewController: UIViewController{
         super.viewDidAppear(true)
         
         animateLoading(imageView: loaginImage,images: loadingImages)
-
         
-        DispatchQueue.main.asyncAfter(deadline: .now() + 10) { // change 2 to desired number of seconds
-            // Your code with delay
+        
+        requests?.getTopMarketsData() { (result: String) in
             
+            print(result)
+            self.animationRepeatCount = 0
             let storyboard = UIStoryboard(name: "Main", bundle: nil)
             let nextViewController = storyboard.instantiateViewController(withIdentifier: "MainViewController")
             // Alternative way to present the new view controller
             self.present(nextViewController, animated: true, completion: nil)
-            
         }
         
     }
@@ -55,7 +59,7 @@ class SplashViewController: UIViewController{
     func animateLoading(imageView: UIImageView,images: [UIImage]){
         imageView.animationImages = images
         imageView.animationDuration = 0.7
-        imageView.animationRepeatCount = 10
+        imageView.animationRepeatCount = self.animationRepeatCount
         imageView.startAnimating()
     }
     
