@@ -29,6 +29,10 @@
 		0BD50A1020B3FCC300440D0F /* loading_image_1.png in Resources */ = {isa = PBXBuildFile; fileRef = 0BD50A0D20B3FCC300440D0F /* loading_image_1.png */; };
 		0BD50A1320B67C5600440D0F /* NetworkHttpAPIurlConst.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BD50A1220B67C5600440D0F /* NetworkHttpAPIurlConst.swift */; };
 		0BD50A1620B86AEF00440D0F /* HttpRequests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BD50A1520B86AEF00440D0F /* HttpRequests.swift */; };
+		0BD50A1D20B953B200440D0F /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BD50A1C20B953B200440D0F /* CoreDataManager.swift */; };
+		0BD50A2020B9645300440D0F /* BulishTradeData.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0BD50A1E20B9645300440D0F /* BulishTradeData.xcdatamodeld */; };
+		0BD50A2320B967FD00440D0F /* DataMotelTopMarkets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BD50A2220B967FD00440D0F /* DataMotelTopMarkets.swift */; };
+		0BD50A2520B9680B00440D0F /* DataModelMostActive.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BD50A2420B9680B00440D0F /* DataModelMostActive.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -56,6 +60,10 @@
 		0BD50A0D20B3FCC300440D0F /* loading_image_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = loading_image_1.png; sourceTree = "<group>"; };
 		0BD50A1220B67C5600440D0F /* NetworkHttpAPIurlConst.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkHttpAPIurlConst.swift; sourceTree = "<group>"; };
 		0BD50A1520B86AEF00440D0F /* HttpRequests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HttpRequests.swift; sourceTree = "<group>"; };
+		0BD50A1C20B953B200440D0F /* CoreDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
+		0BD50A1F20B9645300440D0F /* BulishTradeData.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = BulishTradeData.xcdatamodel; sourceTree = "<group>"; };
+		0BD50A2220B967FD00440D0F /* DataMotelTopMarkets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataMotelTopMarkets.swift; sourceTree = "<group>"; };
+		0BD50A2420B9680B00440D0F /* DataModelMostActive.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataModelMostActive.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,6 +128,9 @@
 		0B83733D20B00A09006D9891 /* BulishTrade */ = {
 			isa = PBXGroup;
 			children = (
+				0BD50A2620B9870A00440D0F /* JsonParser */,
+				0BD50A2120B967CE00440D0F /* DataModels */,
+				0BD50A1820B94FCC00440D0F /* CoreData */,
 				0BD50A1720B86EBA00440D0F /* MainViewControllers */,
 				0BD50A1120B67AC400440D0F /* NetworkConnection */,
 				0BD50A0A20B3FCAB00440D0F /* SplashScreenLoadingImages */,
@@ -161,6 +172,31 @@
 				0B83734020B00A09006D9891 /* ViewController.swift */,
 			);
 			path = MainViewControllers;
+			sourceTree = "<group>";
+		};
+		0BD50A1820B94FCC00440D0F /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				0BD50A1C20B953B200440D0F /* CoreDataManager.swift */,
+				0BD50A1E20B9645300440D0F /* BulishTradeData.xcdatamodeld */,
+			);
+			path = CoreData;
+			sourceTree = "<group>";
+		};
+		0BD50A2120B967CE00440D0F /* DataModels */ = {
+			isa = PBXGroup;
+			children = (
+				0BD50A2220B967FD00440D0F /* DataMotelTopMarkets.swift */,
+				0BD50A2420B9680B00440D0F /* DataModelMostActive.swift */,
+			);
+			path = DataModels;
+			sourceTree = "<group>";
+		};
+		0BD50A2620B9870A00440D0F /* JsonParser */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = JsonParser;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -247,10 +283,14 @@
 				0B2F898220B17F9F0020882E /* LosersController.swift in Sources */,
 				0B2F897A20B17F4F0020882E /* MostActiveController.swift in Sources */,
 				0B2F897F20B17F7D0020882E /* GainersController.swift in Sources */,
+				0BD50A2520B9680B00440D0F /* DataModelMostActive.swift in Sources */,
 				0B2F898420B17FAE0020882E /* PortfolioController.swift in Sources */,
+				0BD50A1D20B953B200440D0F /* CoreDataManager.swift in Sources */,
 				0BD50A1620B86AEF00440D0F /* HttpRequests.swift in Sources */,
 				0BD50A1320B67C5600440D0F /* NetworkHttpAPIurlConst.swift in Sources */,
 				0B83733F20B00A09006D9891 /* AppDelegate.swift in Sources */,
+				0BD50A2320B967FD00440D0F /* DataMotelTopMarkets.swift in Sources */,
+				0BD50A2020B9645300440D0F /* BulishTradeData.xcdatamodeld in Sources */,
 				0B2F897C20B17F620020882E /* TopMarketsController.swift in Sources */,
 				0B2F899B20B1DCB20020882E /* SplashViewController.swift in Sources */,
 			);
@@ -440,6 +480,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		0BD50A1E20B9645300440D0F /* BulishTradeData.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				0BD50A1F20B9645300440D0F /* BulishTradeData.xcdatamodel */,
+			);
+			currentVersion = 0BD50A1F20B9645300440D0F /* BulishTradeData.xcdatamodel */;
+			path = BulishTradeData.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 0B83733320B00A09006D9891 /* Project object */;
 }

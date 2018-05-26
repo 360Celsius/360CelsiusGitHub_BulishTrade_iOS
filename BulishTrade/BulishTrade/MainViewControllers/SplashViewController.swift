@@ -30,7 +30,7 @@ class SplashViewController: UIViewController{
         animateLoading(imageView: loaginImage,images: loadingImages)
         
         
-        requests?.getTopMarketsData() { (result: String) in
+        requests?.getMostActiveData() { (result: String) in
             
             print(result)
             self.animationRepeatCount = 0
