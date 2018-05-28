@@ -29,10 +29,15 @@ class SplashViewController: UIViewController{
         
         animateLoading(imageView: loaginImage,images: loadingImages)
         
-        
-        requests?.getMostActiveData() { (result: String) in
+        requests?.getMostActiveData() { (result: [DataModelMostActive]) in
             
-            print(result)
+            CoreDataManager.coreDataManagerInstance.deleteFromMostActiveDataTable()
+            CoreDataManager.coreDataManagerInstance.addDataToMostActiveDataTable(dataModelMostActiveArray: result)
+            
+            //TODO remove oly for testing
+            var dataModelMostActiveArray:[DataModelMostActive] = CoreDataManager.coreDataManagerInstance.getDataFromMostActiveDataTable()
+            print(dataModelMostActiveArray[0].symbol)
+            
             self.animationRepeatCount = 0
             let storyboard = UIStoryboard(name: "Main", bundle: nil)
             let nextViewController = storyboard.instantiateViewController(withIdentifier: "MainViewController")

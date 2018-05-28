@@ -11,12 +11,13 @@ import Foundation
 
 class DataModelMostActive {
     
-    var most_active_data  :String?
+    var symbol  :String?
     var companyName  :String?
     var primaryExchange  :String?
     var sector  :String?
     var calculationPrice  :String?
     var open  :String?
+    var openTime  :String?
     var close  :String?
     var closeTime  :String?
     var high  :String?

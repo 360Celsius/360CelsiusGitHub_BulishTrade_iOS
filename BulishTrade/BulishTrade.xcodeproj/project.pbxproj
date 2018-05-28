@@ -33,6 +33,7 @@
 		0BD50A2020B9645300440D0F /* BulishTradeData.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0BD50A1E20B9645300440D0F /* BulishTradeData.xcdatamodeld */; };
 		0BD50A2320B967FD00440D0F /* DataMotelTopMarkets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BD50A2220B967FD00440D0F /* DataMotelTopMarkets.swift */; };
 		0BD50A2520B9680B00440D0F /* DataModelMostActive.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BD50A2420B9680B00440D0F /* DataModelMostActive.swift */; };
+		0BD50A2820B9D19F00440D0F /* JasonParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BD50A2720B9D19F00440D0F /* JasonParser.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -64,6 +65,7 @@
 		0BD50A1F20B9645300440D0F /* BulishTradeData.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = BulishTradeData.xcdatamodel; sourceTree = "<group>"; };
 		0BD50A2220B967FD00440D0F /* DataMotelTopMarkets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataMotelTopMarkets.swift; sourceTree = "<group>"; };
 		0BD50A2420B9680B00440D0F /* DataModelMostActive.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataModelMostActive.swift; sourceTree = "<group>"; };
+		0BD50A2720B9D19F00440D0F /* JasonParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JasonParser.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -195,6 +197,7 @@
 		0BD50A2620B9870A00440D0F /* JsonParser */ = {
 			isa = PBXGroup;
 			children = (
+				0BD50A2720B9D19F00440D0F /* JasonParser.swift */,
 			);
 			path = JsonParser;
 			sourceTree = "<group>";
@@ -286,6 +289,7 @@
 				0BD50A2520B9680B00440D0F /* DataModelMostActive.swift in Sources */,
 				0B2F898420B17FAE0020882E /* PortfolioController.swift in Sources */,
 				0BD50A1D20B953B200440D0F /* CoreDataManager.swift in Sources */,
+				0BD50A2820B9D19F00440D0F /* JasonParser.swift in Sources */,
 				0BD50A1620B86AEF00440D0F /* HttpRequests.swift in Sources */,
 				0BD50A1320B67C5600440D0F /* NetworkHttpAPIurlConst.swift in Sources */,
 				0B83733F20B00A09006D9891 /* AppDelegate.swift in Sources */,
