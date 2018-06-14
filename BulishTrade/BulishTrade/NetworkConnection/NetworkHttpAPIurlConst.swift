@@ -10,12 +10,12 @@ import Foundation
 
 class NetworkHttpAPIurlConst {
     
-    private let BASIC_API_URL:String = "https://ws-api.iextrading.com/1.0";
+    private let BASIC_API_URL:String = "https://bulishtrading.000webhostapp.com/Api/api.php?requestType=";
     
-    private let TOP_MARKETS_API_URL:String = "/tops";
-    private let MOST_ACTIVE_API_URL:String = "/stock/market/list/mostactive";
-    private let GINERS_MARKETS_API_URL:String = "/stock/market/list/gainers";
-    private let LOSSERS_MARKETS_API_URL:String = "/stock/market/list/losers";
+    private let TOP_MARKETS_API_URL:String = "getTops";
+    private let MOST_ACTIVE_API_URL:String = "getMostActive";
+    private let GINERS_MARKETS_API_URL:String = "getGainers";
+    private let LOSSERS_MARKETS_API_URL:String = "getLossers";
 
     
     public func getTopMarketApiUrl() -> String {

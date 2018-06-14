@@ -16,6 +16,7 @@ class CoreDataManager {
 
     var persistentContainer: NSPersistentContainer
     var context: NSManagedObjectContext?
+    
 
     private init() {
 
@@ -183,4 +184,6 @@ class CoreDataManager {
         
         return dataModelMostActiveArray
     }
+    
+    ///////////////////////// TopsTable //////////////////////////////////////
 }

@@ -46,6 +46,11 @@ class HttpRequests {
             
             if let data = data {
                 do {
+                    
+                    
+                    let string = String(data: data, encoding: String.Encoding.utf8)
+                    print(string) //JSONSerialization
+                    
                     var mostActiveJsonResponce:[[String:Any]] = [[String:Any]]()
                     var dataModelMostActiveArray:[DataModelMostActive] = [DataModelMostActive]()
                     

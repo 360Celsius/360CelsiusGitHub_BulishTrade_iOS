@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="14133" systemVersion="17E202" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="14135" systemVersion="17F77" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
     <entity name="MostAciveDataTable" representedClassName="MostAciveDataTable" syncable="YES" codeGenerationType="class">
         <attribute name="avgTotalVolume" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="calculationPrice" optional="YES" attributeType="String" syncable="YES"/>
@@ -42,7 +42,7 @@
         <attribute name="week52Low" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="ytdChange" optional="YES" attributeType="String" syncable="YES"/>
     </entity>
-    <entity name="TopMarketsDataTable" representedClassName="TopMarketsDataTable" syncable="YES" codeGenerationType="class">
+    <entity name="TopsDataTable" representedClassName="TopsDataTable" syncable="YES" codeGenerationType="class">
         <attribute name="askPrice" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="askSize" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="bidPrice" optional="YES" attributeType="String" syncable="YES"/>
@@ -58,7 +58,7 @@
         <attribute name="volume" optional="YES" attributeType="String" syncable="YES"/>
     </entity>
     <elements>
-        <element name="TopMarketsDataTable" positionX="-54" positionY="-9" width="128" height="240"/>
         <element name="MostAciveDataTable" positionX="-36" positionY="108" width="128" height="645"/>
+        <element name="TopsDataTable" positionX="-54" positionY="-9" width="128" height="240"/>
     </elements>
 </model>
