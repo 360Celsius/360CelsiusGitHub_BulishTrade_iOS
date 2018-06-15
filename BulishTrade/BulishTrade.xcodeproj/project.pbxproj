@@ -23,6 +23,7 @@
 		0B5075EA20D30E52006AD197 /* DataModelTops.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B5075E920D30E52006AD197 /* DataModelTops.swift */; };
 		0B5075EC20D30E60006AD197 /* DataModelGainers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B5075EB20D30E60006AD197 /* DataModelGainers.swift */; };
 		0B5075EE20D30E6D006AD197 /* DataModelLosers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B5075ED20D30E6D006AD197 /* DataModelLosers.swift */; };
+		0B5D85C320D3F52500427A62 /* PortfolioDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B5D85C220D3F52500427A62 /* PortfolioDataModel.swift */; };
 		0B83733F20B00A09006D9891 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B83733E20B00A09006D9891 /* AppDelegate.swift */; };
 		0B83734120B00A09006D9891 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B83734020B00A09006D9891 /* ViewController.swift */; };
 		0B83734420B00A09006D9891 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0B83734220B00A09006D9891 /* Main.storyboard */; };
@@ -55,6 +56,7 @@
 		0B5075E920D30E52006AD197 /* DataModelTops.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataModelTops.swift; sourceTree = "<group>"; };
 		0B5075EB20D30E60006AD197 /* DataModelGainers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataModelGainers.swift; sourceTree = "<group>"; };
 		0B5075ED20D30E6D006AD197 /* DataModelLosers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataModelLosers.swift; sourceTree = "<group>"; };
+		0B5D85C220D3F52500427A62 /* PortfolioDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PortfolioDataModel.swift; sourceTree = "<group>"; };
 		0B83733B20B00A09006D9891 /* BulishTrade.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BulishTrade.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0B83733E20B00A09006D9891 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0B83734020B00A09006D9891 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -196,6 +198,7 @@
 				0B5075E920D30E52006AD197 /* DataModelTops.swift */,
 				0B5075EB20D30E60006AD197 /* DataModelGainers.swift */,
 				0B5075ED20D30E6D006AD197 /* DataModelLosers.swift */,
+				0B5D85C220D3F52500427A62 /* PortfolioDataModel.swift */,
 			);
 			path = DataModels;
 			sourceTree = "<group>";
@@ -292,6 +295,7 @@
 				0B2F898220B17F9F0020882E /* LosersController.swift in Sources */,
 				0B2F897A20B17F4F0020882E /* MostActiveController.swift in Sources */,
 				0B2F897F20B17F7D0020882E /* GainersController.swift in Sources */,
+				0B5D85C320D3F52500427A62 /* PortfolioDataModel.swift in Sources */,
 				0BD50A2520B9680B00440D0F /* DataModelMostActive.swift in Sources */,
 				0B5075EC20D30E60006AD197 /* DataModelGainers.swift in Sources */,
 				0B2F898420B17FAE0020882E /* PortfolioController.swift in Sources */,

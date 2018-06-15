@@ -1,5 +1,89 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="14135" systemVersion="17F77" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="GainersDataTabel" representedClassName="GainersDataTabel" syncable="YES" codeGenerationType="class">
+        <attribute name="avgTotalVolume" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="calculationPrice" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="change" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="changePercent" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="close" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="closeTime" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="companyName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="delayedPrice" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="delayedPriceTime" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="extendedChange" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="extendedChangePercent" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="extendedPrice" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="extendedPriceTime" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="high" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="iexAskPrice" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="iexAskSize" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="iexBidPrice" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="iexBidSize" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="iexLastUpdated" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="iexMarketPercent" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="iexRealtimePrice" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="iexRealtimeSize" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="iexVolume" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="latestPrice" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="latestSource" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="latestTime" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="latestUpdate" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="latestVolume" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="low" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="marketCap" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="open" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="openTime" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="peRatio" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="previousClose" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="primaryExchange" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="sector" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="symbol" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="week52High" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="week52Low" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="ytdChange" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="LosersDataTabel" representedClassName="LosersDataTabel" syncable="YES" codeGenerationType="class">
+        <attribute name="avgTotalVolume" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="calculationPrice" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="change" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="changePercent" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="close" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="closeTime" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="companyName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="delayedPrice" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="delayedPriceTime" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="extendedChange" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="extendedChangePercent" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="extendedPrice" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="extendedPriceTime" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="high" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="iexAskPrice" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="iexAskSize" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="iexBidPrice" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="iexBidSize" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="iexLastUpdated" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="iexMarketPercent" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="iexRealtimePrice" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="iexRealtimeSize" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="iexVolume" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="latestPrice" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="latestSource" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="latestTime" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="latestUpdate" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="latestVolume" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="low" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="marketCap" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="open" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="openTime" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="peRatio" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="previousClose" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="primaryExchange" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="sector" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="symbol" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="week52High" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="week52Low" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="ytdChange" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
     <entity name="MostAciveDataTable" representedClassName="MostAciveDataTable" syncable="YES" codeGenerationType="class">
         <attribute name="avgTotalVolume" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="calculationPrice" optional="YES" attributeType="String" syncable="YES"/>
@@ -42,23 +126,95 @@
         <attribute name="week52Low" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="ytdChange" optional="YES" attributeType="String" syncable="YES"/>
     </entity>
-    <entity name="TopsDataTable" representedClassName="TopsDataTable" syncable="YES" codeGenerationType="class">
-        <attribute name="askPrice" optional="YES" attributeType="String" syncable="YES"/>
-        <attribute name="askSize" optional="YES" attributeType="String" syncable="YES"/>
-        <attribute name="bidPrice" optional="YES" attributeType="String" syncable="YES"/>
-        <attribute name="bidSize" optional="YES" attributeType="String" syncable="YES"/>
-        <attribute name="lastSalePrice" optional="YES" attributeType="String" syncable="YES"/>
-        <attribute name="lastSaleSize" optional="YES" attributeType="String" syncable="YES"/>
-        <attribute name="lastSaleTime" optional="YES" attributeType="String" syncable="YES"/>
-        <attribute name="lastUpdated" optional="YES" attributeType="String" syncable="YES"/>
-        <attribute name="marketPercent" optional="YES" attributeType="String" syncable="YES"/>
+    <entity name="PortfolioDataTable" representedClassName="PortfolioDataTable" syncable="YES" codeGenerationType="class">
+        <attribute name="avgTotalVolume" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="calculationPrice" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="change" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="changePercent" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="close" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="closeTime" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="companyName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="delayedPrice" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="delayedPriceTime" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="extendedChange" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="extendedChangePercent" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="extendedPrice" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="extendedPriceTime" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="high" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="iexAskPrice" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="iexAskSize" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="iexBidPrice" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="iexBidSize" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="iexLastUpdated" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="iexMarketPercent" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="iexRealtimePrice" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="iexRealtimeSize" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="iexVolume" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="latestPrice" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="latestSource" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="latestTime" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="latestUpdate" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="latestVolume" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="low" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="marketCap" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="open" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="openTime" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="peRatio" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="previousClose" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="primaryExchange" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="sector" optional="YES" attributeType="String" syncable="YES"/>
-        <attribute name="securityType" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="symbol" optional="YES" attributeType="String" syncable="YES"/>
-        <attribute name="volume" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="week52High" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="week52Low" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="ytdChange" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="TopsDataTable" representedClassName="TopsDataTable" syncable="YES" codeGenerationType="class">
+        <attribute name="avgTotalVolume" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="calculationPrice" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="change" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="changePercent" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="close" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="closeTime" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="companyName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="delayedPrice" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="delayedPriceTime" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="extendedChange" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="extendedChangePercent" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="extendedPrice" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="extendedPriceTime" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="high" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="iexAskPrice" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="iexAskSize" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="iexBidPrice" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="iexBidSize" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="iexLastUpdated" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="iexMarketPercent" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="iexRealtimePrice" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="iexRealtimeSize" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="iexVolume" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="latestPrice" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="latestSource" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="latestTime" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="latestUpdate" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="latestVolume" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="low" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="marketCap" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="open" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="openTime" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="peRatio" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="previousClose" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="primaryExchange" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="sector" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="symbol" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="week52High" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="week52Low" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="ytdChange" optional="YES" attributeType="String" syncable="YES"/>
     </entity>
     <elements>
-        <element name="MostAciveDataTable" positionX="-36" positionY="108" width="128" height="645"/>
-        <element name="TopsDataTable" positionX="-54" positionY="-9" width="128" height="240"/>
+        <element name="MostAciveDataTable" positionX="-182" positionY="102" width="128" height="645"/>
+        <element name="TopsDataTable" positionX="-18" positionY="104" width="128" height="643"/>
+        <element name="GainersDataTabel" positionX="144" positionY="108" width="128" height="643"/>
+        <element name="LosersDataTabel" positionX="0" positionY="423" width="128" height="645"/>
+        <element name="PortfolioDataTable" positionX="9" positionY="495" width="128" height="645"/>
     </elements>
 </model>
