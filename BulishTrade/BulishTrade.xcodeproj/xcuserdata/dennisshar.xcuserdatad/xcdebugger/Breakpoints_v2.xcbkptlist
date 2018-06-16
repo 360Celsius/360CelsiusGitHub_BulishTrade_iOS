@@ -10,7 +10,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "BulishTrade/CoreData/CoreDataManager.swift"
-            timestampString = "550768988.9374141"
+            timestampString = "550849774.4622329"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "44"
@@ -26,7 +26,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "BulishTrade/MainViewControllers/SplashViewController.swift"
-            timestampString = "550704894.148342"
+            timestampString = "550849774.4623359"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "40"
@@ -42,12 +42,12 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "BulishTrade/NetworkConnection/HttpRequests.swift"
-            timestampString = "550706882.479485"
+            timestampString = "550849774.4624079"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "25"
             endingLineNumber = "25"
-            landmarkName = "getTopMarketsData(complition:)"
+            landmarkName = "getTopsData(complition:)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
@@ -58,11 +58,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "BulishTrade/NetworkConnection/HttpRequests.swift"
-            timestampString = "550706882.481737"
+            timestampString = "550849774.462471"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "47"
-            endingLineNumber = "47"
+            startingLineNumber = "55"
+            endingLineNumber = "55"
             landmarkName = "getMostActiveData(complition:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -74,11 +74,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "BulishTrade/NetworkConnection/HttpRequests.swift"
-            timestampString = "550706882.482096"
+            timestampString = "550849774.462531"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "55"
-            endingLineNumber = "55"
+            startingLineNumber = "63"
+            endingLineNumber = "63"
             landmarkName = "getMostActiveData(complition:)"
             landmarkType = "7">
          </BreakpointContent>

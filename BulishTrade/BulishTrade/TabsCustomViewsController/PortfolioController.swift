@@ -11,10 +11,17 @@ import UIKit
 
 class PortfolioController: UIViewController{
     
+    var requests: HttpRequests?    
     @IBOutlet weak var portfolioLabel: UILabel!
     
     override func viewDidLoad() {
         super.viewDidLoad()
         portfolioLabel.text = "Portfoliofragment"
+        
+        requests = HttpRequests()
+    }
+    
+    override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(true)
     }
 }

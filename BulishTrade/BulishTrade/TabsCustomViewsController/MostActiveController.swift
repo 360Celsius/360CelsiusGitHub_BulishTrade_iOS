@@ -11,10 +11,21 @@ import UIKit
 
 class MostActiveController: UIViewController{
     
+    var requests: HttpRequests?
     @IBOutlet weak var mostActiveLabel: UILabel!
     
     override func viewDidLoad() {
         super.viewDidLoad()
         mostActiveLabel.text = "Most Active"
+        
+        requests = HttpRequests()
+    }
+    
+    override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(true)
+        
+//        requests?.getMostActiveData() { (result: [DataModelMostActive]) in
+//            
+//        }
     }
 }
